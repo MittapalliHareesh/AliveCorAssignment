@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back)
         toolbar.setNavigationOnClickListener { onBackPressed() }
         viewModelActivity = ViewModelProviders.of(this).get(UserViewModel::class.java)
-        viewModelActivity.getUserData().observe(this, Observer { user ->
+        viewModelActivity.getUserData().observe(this, Observer { _ ->
             //Can update in fragment here.
         })
     }
