@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AliveCorTask</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="user_profile_details">User Profile Information :</string>
+    <string name="user_firstName">First Name</string>
+    <string name="user_lastName">Last Name</string>
+    <string name="user_age">Age</string>
+    <string name="enter_first_name">Enter Your First Name</string>
+    <string name="enter_second_name">Enter Your Second Name</string>
+    <string name="enter_dob">Date Of Birth</string>
+    <string name="first_name_not_empty">First Name should not be empty</string>
+    <string name="last_name_not_empty">Second Name should not be empty</string>
+</resources>
